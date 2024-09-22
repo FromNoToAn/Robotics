@@ -1,0 +1,19 @@
+<launch>
+  <!-- Запуск черепах -->
+  <node pkg="turtlesim" exec="turtlesim_node" name="turtle1"/>
+  <node pkg="turtlesim" exec="turtlesim_node" name="turtle2"/>
+  <node pkg="turtlesim" exec="turtlesim_node" name="turtle3"/>
+
+  <!-- Узел mimic для того, чтобы turtle2 повторяла поведение turtle1 -->
+  <node pkg="turtlesim" exec="mimic" name="mimic_turtle2">
+    <remap from="/input/pose" to="/turtle1/pose"/>
+    <remap from="/output/cmd_vel" to="/turtle2/cmd_vel"/>
+  </node>
+
+  <!-- Узел mimic для того, чтобы turtle3 повторяла поведение turtle2 -->
+  <node pkg="turtlesim" exec="mimic" name="mimic_turtle3">
+    <remap from="/input/pose" to="/turtle2/pose"/>
+    <remap from="/output/cmd_vel" to="/turtle3/cmd_vel"/>
+  </node>
+</launch>
+

@@ -1,0 +1,12 @@
+# Из папки ex07
+ros2 service call /spawn turtlesim/srv/Spawn "{x: 4.0, y: 4.0, theta: 0.0, name: 'Leonardo'}"
+ros2 service call /spawn turtlesim/srv/Spawn "{x: 6.0, y: 4.0, theta: 0.0, name: 'Raphael'}"
+ros2 service call /spawn turtlesim/srv/Spawn "{x: 4.0, y: 6.0, theta: 0.0, name: 'Donatello'}"
+ros2 service call /spawn turtlesim/srv/Spawn "{x: 6.0, y: 6.0, theta: 0.0, name: 'Michelangelo'}"
+
+ros2 param set /turtlesim background_g 124
+
+ros2 service list > rosservice_list.txt
+
+ros2 param list > parameter_server.txt
+
