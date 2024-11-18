@@ -1,0 +1,5 @@
+[console_scripts]
+circle_movement = my_movement.circle_movement:main
+ellipse_movement = my_movement.ellipse_movement:main
+star_movement = my_movement.star_movement:main
+

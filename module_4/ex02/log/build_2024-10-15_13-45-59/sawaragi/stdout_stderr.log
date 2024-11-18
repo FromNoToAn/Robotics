@@ -1,0 +1,54 @@
+running egg_info
+creating ../../build/sawaragi/sawaragi.egg-info
+writing ../../build/sawaragi/sawaragi.egg-info/PKG-INFO
+writing dependency_links to ../../build/sawaragi/sawaragi.egg-info/dependency_links.txt
+writing entry points to ../../build/sawaragi/sawaragi.egg-info/entry_points.txt
+writing requirements to ../../build/sawaragi/sawaragi.egg-info/requires.txt
+writing top-level names to ../../build/sawaragi/sawaragi.egg-info/top_level.txt
+writing manifest file '../../build/sawaragi/sawaragi.egg-info/SOURCES.txt'
+reading manifest file '../../build/sawaragi/sawaragi.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/sawaragi/sawaragi.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/yuichi-katagiri/Subjects/Robotics/ex02/build/sawaragi/build
+creating /home/yuichi-katagiri/Subjects/Robotics/ex02/build/sawaragi/build/lib
+creating /home/yuichi-katagiri/Subjects/Robotics/ex02/build/sawaragi/build/lib/sawaragi
+copying sawaragi/static_turtle_tf2_broadcaster.py -> /home/yuichi-katagiri/Subjects/Robotics/ex02/build/sawaragi/build/lib/sawaragi
+copying sawaragi/fixed_frame_tf2_broadcaster.py -> /home/yuichi-katagiri/Subjects/Robotics/ex02/build/sawaragi/build/lib/sawaragi
+copying sawaragi/dynamic_frame_tf2_broadcaster.py -> /home/yuichi-katagiri/Subjects/Robotics/ex02/build/sawaragi/build/lib/sawaragi
+copying sawaragi/__init__.py -> /home/yuichi-katagiri/Subjects/Robotics/ex02/build/sawaragi/build/lib/sawaragi
+copying sawaragi/turtle_tf2_broadcaster.py -> /home/yuichi-katagiri/Subjects/Robotics/ex02/build/sawaragi/build/lib/sawaragi
+copying sawaragi/turtle_tf2_listener.py -> /home/yuichi-katagiri/Subjects/Robotics/ex02/build/sawaragi/build/lib/sawaragi
+running install
+running install_lib
+creating /home/yuichi-katagiri/Subjects/Robotics/ex02/install/sawaragi/lib/python3.10/site-packages/sawaragi
+copying /home/yuichi-katagiri/Subjects/Robotics/ex02/build/sawaragi/build/lib/sawaragi/static_turtle_tf2_broadcaster.py -> /home/yuichi-katagiri/Subjects/Robotics/ex02/install/sawaragi/lib/python3.10/site-packages/sawaragi
+copying /home/yuichi-katagiri/Subjects/Robotics/ex02/build/sawaragi/build/lib/sawaragi/fixed_frame_tf2_broadcaster.py -> /home/yuichi-katagiri/Subjects/Robotics/ex02/install/sawaragi/lib/python3.10/site-packages/sawaragi
+copying /home/yuichi-katagiri/Subjects/Robotics/ex02/build/sawaragi/build/lib/sawaragi/dynamic_frame_tf2_broadcaster.py -> /home/yuichi-katagiri/Subjects/Robotics/ex02/install/sawaragi/lib/python3.10/site-packages/sawaragi
+copying /home/yuichi-katagiri/Subjects/Robotics/ex02/build/sawaragi/build/lib/sawaragi/__init__.py -> /home/yuichi-katagiri/Subjects/Robotics/ex02/install/sawaragi/lib/python3.10/site-packages/sawaragi
+copying /home/yuichi-katagiri/Subjects/Robotics/ex02/build/sawaragi/build/lib/sawaragi/turtle_tf2_broadcaster.py -> /home/yuichi-katagiri/Subjects/Robotics/ex02/install/sawaragi/lib/python3.10/site-packages/sawaragi
+copying /home/yuichi-katagiri/Subjects/Robotics/ex02/build/sawaragi/build/lib/sawaragi/turtle_tf2_listener.py -> /home/yuichi-katagiri/Subjects/Robotics/ex02/install/sawaragi/lib/python3.10/site-packages/sawaragi
+byte-compiling /home/yuichi-katagiri/Subjects/Robotics/ex02/install/sawaragi/lib/python3.10/site-packages/sawaragi/static_turtle_tf2_broadcaster.py to static_turtle_tf2_broadcaster.cpython-310.pyc
+byte-compiling /home/yuichi-katagiri/Subjects/Robotics/ex02/install/sawaragi/lib/python3.10/site-packages/sawaragi/fixed_frame_tf2_broadcaster.py to fixed_frame_tf2_broadcaster.cpython-310.pyc
+byte-compiling /home/yuichi-katagiri/Subjects/Robotics/ex02/install/sawaragi/lib/python3.10/site-packages/sawaragi/dynamic_frame_tf2_broadcaster.py to dynamic_frame_tf2_broadcaster.cpython-310.pyc
+byte-compiling /home/yuichi-katagiri/Subjects/Robotics/ex02/install/sawaragi/lib/python3.10/site-packages/sawaragi/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/yuichi-katagiri/Subjects/Robotics/ex02/install/sawaragi/lib/python3.10/site-packages/sawaragi/turtle_tf2_broadcaster.py to turtle_tf2_broadcaster.cpython-310.pyc
+byte-compiling /home/yuichi-katagiri/Subjects/Robotics/ex02/install/sawaragi/lib/python3.10/site-packages/sawaragi/turtle_tf2_listener.py to turtle_tf2_listener.cpython-310.pyc
+running install_data
+creating /home/yuichi-katagiri/Subjects/Robotics/ex02/install/sawaragi/share/ament_index
+creating /home/yuichi-katagiri/Subjects/Robotics/ex02/install/sawaragi/share/ament_index/resource_index
+creating /home/yuichi-katagiri/Subjects/Robotics/ex02/install/sawaragi/share/ament_index/resource_index/packages
+copying resource/sawaragi -> /home/yuichi-katagiri/Subjects/Robotics/ex02/install/sawaragi/share/ament_index/resource_index/packages
+copying package.xml -> /home/yuichi-katagiri/Subjects/Robotics/ex02/install/sawaragi/share/sawaragi
+creating /home/yuichi-katagiri/Subjects/Robotics/ex02/install/sawaragi/share/sawaragi/launch
+copying launch/lab4_2.launch.py -> /home/yuichi-katagiri/Subjects/Robotics/ex02/install/sawaragi/share/sawaragi/launch
+copying launch/lab4_2_fixed.launch.py -> /home/yuichi-katagiri/Subjects/Robotics/ex02/install/sawaragi/share/sawaragi/launch
+running install_egg_info
+Copying ../../build/sawaragi/sawaragi.egg-info to /home/yuichi-katagiri/Subjects/Robotics/ex02/install/sawaragi/lib/python3.10/site-packages/sawaragi-0.0.0-py3.10.egg-info
+running install_scripts
+Installing fixed_frame_tf2_broadcaster script to /home/yuichi-katagiri/Subjects/Robotics/ex02/install/sawaragi/lib/sawaragi
+Installing static_turtle_tf2_broadcaster script to /home/yuichi-katagiri/Subjects/Robotics/ex02/install/sawaragi/lib/sawaragi
+Installing turtle_tf2_broadcaster script to /home/yuichi-katagiri/Subjects/Robotics/ex02/install/sawaragi/lib/sawaragi
+Installing turtle_tf2_listener script to /home/yuichi-katagiri/Subjects/Robotics/ex02/install/sawaragi/lib/sawaragi
+writing list of installed files to '/home/yuichi-katagiri/Subjects/Robotics/ex02/build/sawaragi/install.log'

@@ -1,0 +1,40 @@
+running egg_info
+creating ../../build/action_turtle_commands/action_turtle_commands.egg-info
+writing ../../build/action_turtle_commands/action_turtle_commands.egg-info/PKG-INFO
+writing dependency_links to ../../build/action_turtle_commands/action_turtle_commands.egg-info/dependency_links.txt
+writing entry points to ../../build/action_turtle_commands/action_turtle_commands.egg-info/entry_points.txt
+writing requirements to ../../build/action_turtle_commands/action_turtle_commands.egg-info/requires.txt
+writing top-level names to ../../build/action_turtle_commands/action_turtle_commands.egg-info/top_level.txt
+writing manifest file '../../build/action_turtle_commands/action_turtle_commands.egg-info/SOURCES.txt'
+reading manifest file '../../build/action_turtle_commands/action_turtle_commands.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/action_turtle_commands/action_turtle_commands.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/yuichi-katagiri/Subjects/Robotics/ex02/build/action_turtle_commands/build
+creating /home/yuichi-katagiri/Subjects/Robotics/ex02/build/action_turtle_commands/build/lib
+creating /home/yuichi-katagiri/Subjects/Robotics/ex02/build/action_turtle_commands/build/lib/action_turtle_commands
+copying action_turtle_commands/action_turtle_client.py -> /home/yuichi-katagiri/Subjects/Robotics/ex02/build/action_turtle_commands/build/lib/action_turtle_commands
+copying action_turtle_commands/action_turtle_server.py -> /home/yuichi-katagiri/Subjects/Robotics/ex02/build/action_turtle_commands/build/lib/action_turtle_commands
+copying action_turtle_commands/__init__.py -> /home/yuichi-katagiri/Subjects/Robotics/ex02/build/action_turtle_commands/build/lib/action_turtle_commands
+running install
+running install_lib
+creating /home/yuichi-katagiri/Subjects/Robotics/ex02/install/action_turtle_commands/lib/python3.10/site-packages/action_turtle_commands
+copying /home/yuichi-katagiri/Subjects/Robotics/ex02/build/action_turtle_commands/build/lib/action_turtle_commands/action_turtle_client.py -> /home/yuichi-katagiri/Subjects/Robotics/ex02/install/action_turtle_commands/lib/python3.10/site-packages/action_turtle_commands
+copying /home/yuichi-katagiri/Subjects/Robotics/ex02/build/action_turtle_commands/build/lib/action_turtle_commands/action_turtle_server.py -> /home/yuichi-katagiri/Subjects/Robotics/ex02/install/action_turtle_commands/lib/python3.10/site-packages/action_turtle_commands
+copying /home/yuichi-katagiri/Subjects/Robotics/ex02/build/action_turtle_commands/build/lib/action_turtle_commands/__init__.py -> /home/yuichi-katagiri/Subjects/Robotics/ex02/install/action_turtle_commands/lib/python3.10/site-packages/action_turtle_commands
+byte-compiling /home/yuichi-katagiri/Subjects/Robotics/ex02/install/action_turtle_commands/lib/python3.10/site-packages/action_turtle_commands/action_turtle_client.py to action_turtle_client.cpython-310.pyc
+byte-compiling /home/yuichi-katagiri/Subjects/Robotics/ex02/install/action_turtle_commands/lib/python3.10/site-packages/action_turtle_commands/action_turtle_server.py to action_turtle_server.cpython-310.pyc
+byte-compiling /home/yuichi-katagiri/Subjects/Robotics/ex02/install/action_turtle_commands/lib/python3.10/site-packages/action_turtle_commands/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/yuichi-katagiri/Subjects/Robotics/ex02/install/action_turtle_commands/share/ament_index
+creating /home/yuichi-katagiri/Subjects/Robotics/ex02/install/action_turtle_commands/share/ament_index/resource_index
+creating /home/yuichi-katagiri/Subjects/Robotics/ex02/install/action_turtle_commands/share/ament_index/resource_index/packages
+copying resource/action_turtle_commands -> /home/yuichi-katagiri/Subjects/Robotics/ex02/install/action_turtle_commands/share/ament_index/resource_index/packages
+copying package.xml -> /home/yuichi-katagiri/Subjects/Robotics/ex02/install/action_turtle_commands/share/action_turtle_commands
+running install_egg_info
+Copying ../../build/action_turtle_commands/action_turtle_commands.egg-info to /home/yuichi-katagiri/Subjects/Robotics/ex02/install/action_turtle_commands/lib/python3.10/site-packages/action_turtle_commands-0.0.0-py3.10.egg-info
+running install_scripts
+Installing action_turtle_client script to /home/yuichi-katagiri/Subjects/Robotics/ex02/install/action_turtle_commands/lib/action_turtle_commands
+Installing action_turtle_server script to /home/yuichi-katagiri/Subjects/Robotics/ex02/install/action_turtle_commands/lib/action_turtle_commands
+writing list of installed files to '/home/yuichi-katagiri/Subjects/Robotics/ex02/build/action_turtle_commands/install.log'

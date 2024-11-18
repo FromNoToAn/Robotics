@@ -1,0 +1,216 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="physics">
+
+  <xacro:include filename="$(find robot_description)/urdf/lidar.urdf.xacro" />
+  <xacro:include filename="$(find robot_description)/urdf/gazebo.urdf.xacro" />
+  
+  <!-- Определение материалов -->
+  <xacro:macro name="define_materials">
+    <material name="blue">
+      <color rgba="0 0 0.8 1"/>
+    </material>
+    <material name="black">
+      <color rgba="0 0 0 1"/>
+    </material>
+    <material name="white">
+      <color rgba="1 1 1 1"/>
+    </material>
+    <material name="pink">
+      <color rgba="0.7 0.5 0.6 1"/>
+    </material>
+    <material name="light_pink">
+      <color rgba="1 0.7 0.85 1"/>
+    </material>
+    <material name="dark_pink">
+      <color rgba="0.5 0.3 0.4 1"/>
+    </material>
+  </xacro:macro>
+  <xacro:define_materials/>
+
+  <!-- Макрос для цилиндра -->
+  <xacro:macro name="cylinder_link" params="name length radius material rpy xyz">
+    <link name="${name}">
+      <visual>
+        <geometry>
+          <cylinder length="${length}" radius="${radius}"/>
+        </geometry>
+        <material name="${material}"/>
+        <origin rpy="${rpy}" xyz="${xyz}"/>
+      </visual>
+      <collision>
+        <geometry>
+          <cylinder length="${length}" radius="${radius}"/>
+        </geometry>
+        <origin rpy="${rpy}" xyz="${xyz}"/>
+      </collision>
+      <inertial>
+        <mass value="10"/>
+        <inertia ixx="1e-3" ixy="0" ixz="0" iyy="1e-3" iyz="0" izz="1e-3"/>
+      </inertial>
+    </link>
+  </xacro:macro>
+
+  <!-- Макрос для соединений -->
+  <xacro:macro name="fixed_joint" params="name parent child xyz rpy">
+    <joint name="${name}" type="fixed">
+      <parent link="${parent}"/>
+      <child link="${child}"/>
+      <origin xyz="${xyz}" rpy="${rpy}"/>
+    </joint>
+  </xacro:macro>
+
+  <!-- Базовая структура робота -->
+  <xacro:cylinder_link name="base_link" length="0.5" radius="0.2" material="pink" rpy="1.5708 0 1.5708" xyz="0 0 0.3"/>
+
+  <!-- Лапы -->
+  <xacro:macro name="leg" params="name parent xyz material">
+    <link name="${name}">
+      <visual>
+        <geometry>
+          <box size="0.1 0.1 0.3"/>
+        </geometry>
+        <material name="${material}"/>
+        <origin rpy="0 0 0" xyz="${xyz}"/>
+      </visual>
+      <collision>
+        <geometry>
+          <box size="0.1 0.1 0.3"/>
+        </geometry>
+        <origin rpy="0 0 0" xyz="${xyz}"/>
+      </collision>
+      <inertial>
+        <mass value="10"/>
+        <inertia ixx="1e-3" ixy="0" ixz="0" iyy="1e-3" iyz="0" izz="1e-3"/>
+      </inertial>
+    </link>
+    <xacro:fixed_joint name="${parent}_to_${name}" parent="${parent}" child="${name}" xyz="0 0 0" rpy="0 0 0"/>
+  </xacro:macro>
+  
+  <xacro:leg name="right_top_leg" parent="base_link" xyz="0.175 -0.2 0.22" material="light_pink"/>
+  <xacro:leg name="right_back_leg" parent="base_link" xyz="-0.175 -0.2 0.22" material="light_pink"/>
+  <xacro:leg name="left_top_leg" parent="base_link" xyz="0.175 0.2 0.22" material="light_pink"/>
+  <xacro:leg name="left_back_leg" parent="base_link" xyz="-0.175 0.2 0.22" material="light_pink"/>
+
+  <!-- Пример для других компонентов, например, колес -->
+  <!-- Макрос для создания колеса -->
+  <xacro:macro name="wheel" params="side front_back parent_link xyz rpy">
+  <!-- Ссылка на колесо -->
+  <xacro:cylinder_link name="${side}_${front_back}_wheel" 
+                       length="0.1" 
+                       radius="0.04" 
+                       material="black" 
+                       rpy="1.57075 0 0" 
+                       xyz="0 0 0"/>
+  
+  <!-- Шарнир колеса -->
+  <joint name="${side}_${front_back}_wheel_joint" type="continuous">
+    <axis xyz="0 1 0"/>
+    <parent link="${parent_link}"/>
+    <child link="${side}_${front_back}_wheel"/>
+    <origin xyz="${xyz}" rpy="${rpy}"/>
+  </joint>
+  </xacro:macro>
+
+  <!-- Создание колес -->
+  <xacro:wheel side="right" front_back="front" parent_link="right_top_leg" xyz="0.175 -0.2 0.03" rpy="0 0 0"/>
+  <xacro:wheel side="right" front_back="back" parent_link="right_top_leg" xyz="-0.175 -0.2 0.03" rpy="0 0 0"/>
+  <xacro:wheel side="left" front_back="front" parent_link="left_top_leg" xyz="0.175 0.2 0.03" rpy="0 0 0"/>
+  <xacro:wheel side="left" front_back="back" parent_link="left_top_leg" xyz="-0.175 0.2 0.03" rpy="0 0 0"/>
+  
+  
+<!-- Макрос для создания головы -->
+<xacro:macro name="head" params="parent_link head_xyz head_rpy">
+  <link name="head">
+    <visual>
+      <geometry>
+        <cylinder length="0.04" radius="0.15"/>
+      </geometry>
+      <material name="dark_pink"/>
+      <origin rpy="1.5708 0 1.5708" xyz="0 0 0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <cylinder length="0.04" radius="0.15"/>
+      </geometry>
+      <origin rpy="1.5708 0 1.5708" xyz="0 0 0"/>
+    </collision>
+    <inertial>
+      <mass value="10"/>
+      <inertia ixx="1e-3" ixy="0.0" ixz="0.0" iyy="1e-3" iyz="0.0" izz="1e-3"/>
+    </inertial>
+  </link>
+  <joint name="head_joint" type="fixed">
+    <parent link="${parent_link}"/>
+    <child link="head"/>
+    <origin xyz="${head_xyz}" rpy="${head_rpy}"/>
+  </joint>
+</xacro:macro>
+
+<!-- Макрос для глаза -->
+<xacro:macro name="eye" params="side xyz rpy">
+  <link name="${side}_eye">
+    <visual>
+      <geometry>
+        <cylinder length="0.01" radius="0.025"/>
+      </geometry>
+      <material name="black"/>
+      <origin rpy="1.5708 0 1.5708" xyz="0 0 0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <cylinder length="0.01" radius="0.025"/>
+      </geometry>
+      <origin rpy="1.5708 0 1.5708" xyz="0 0 0"/>
+    </collision>
+    <inertial>
+      <mass value="10"/>
+      <inertia ixx="1e-3" ixy="0.0" ixz="0.0" iyy="1e-3" iyz="0.0" izz="1e-3"/>
+    </inertial>
+  </link>
+  <joint name="${side}_eye_joint" type="fixed">
+    <axis xyz="0 1 0"/>
+    <parent link="head"/>
+    <child link="${side}_eye"/>
+    <origin xyz="${xyz}" rpy="${rpy}"/>
+  </joint>
+</xacro:macro>
+
+<!-- Макрос для уха -->
+<xacro:macro name="ear" params="side xyz rpy">
+  <link name="${side}_ear">
+    <visual>
+      <geometry>
+        <cylinder length="0.04" radius="0.05"/>
+      </geometry>
+      <material name="light_pink"/>
+      <origin rpy="1.5708 0 1.5708" xyz="0 0 0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <cylinder length="0.04" radius="0.05"/>
+      </geometry>
+      <origin rpy="1.5708 0 1.5708" xyz="0 0 0"/>
+    </collision>
+    <inertial>
+      <mass value="10"/>
+      <inertia ixx="1e-3" ixy="0.0" ixz="0.0" iyy="1e-3" iyz="0.0" izz="1e-3"/>
+    </inertial>
+  </link>
+  <joint name="${side}_ear_joint" type="fixed">
+    <axis xyz="0 1 0"/>
+    <parent link="head"/>
+    <child link="${side}_ear"/>
+    <origin xyz="${xyz}" rpy="${rpy}"/>
+  </joint>
+</xacro:macro>
+
+<!-- Вызовы макросов -->
+<xacro:head parent_link="base_link" head_xyz="0.25 0 0.3" head_rpy="0 0 0"/>
+<xacro:eye side="left" xyz="0.02 0.05 0.05" rpy="0 0 0"/>
+<xacro:eye side="right" xyz="0.02 -0.05 0.05" rpy="0 0 0"/>
+<xacro:ear side="left" xyz="-0.05 0.1 0.2" rpy="0 0 0"/>
+<xacro:ear side="right" xyz="-0.05 -0.1 0.2" rpy="0 0 0"/>
+
+
+</robot>
+

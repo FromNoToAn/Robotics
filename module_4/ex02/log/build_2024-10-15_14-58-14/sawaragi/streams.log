@@ -1,0 +1,24 @@
+[0.547s] Invoking command in '/home/yuichi-katagiri/Subjects/Robotics/ex02/src/sawaragi': PYTHONPATH=/home/yuichi-katagiri/Subjects/Robotics/ex02/build/sawaragi/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuichi-katagiri/Subjects/Robotics/ex02/install/sawaragi/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/sawaragi build --build-base /home/yuichi-katagiri/Subjects/Robotics/ex02/build/sawaragi/build install --record /home/yuichi-katagiri/Subjects/Robotics/ex02/build/sawaragi/install.log --single-version-externally-managed install_data
+[0.762s] running egg_info
+[0.762s] writing ../../build/sawaragi/sawaragi.egg-info/PKG-INFO
+[0.763s] writing dependency_links to ../../build/sawaragi/sawaragi.egg-info/dependency_links.txt
+[0.763s] writing entry points to ../../build/sawaragi/sawaragi.egg-info/entry_points.txt
+[0.763s] writing requirements to ../../build/sawaragi/sawaragi.egg-info/requires.txt
+[0.763s] writing top-level names to ../../build/sawaragi/sawaragi.egg-info/top_level.txt
+[0.764s] reading manifest file '../../build/sawaragi/sawaragi.egg-info/SOURCES.txt'
+[0.765s] adding license file 'LICENSE'
+[0.765s] writing manifest file '../../build/sawaragi/sawaragi.egg-info/SOURCES.txt'
+[0.765s] running build
+[0.765s] running build_py
+[0.766s] running install
+[0.766s] running install_lib
+[0.767s] running install_data
+[0.767s] running install_egg_info
+[0.769s] removing '/home/yuichi-katagiri/Subjects/Robotics/ex02/install/sawaragi/lib/python3.10/site-packages/sawaragi-0.0.0-py3.10.egg-info' (and everything under it)
+[0.769s] Copying ../../build/sawaragi/sawaragi.egg-info to /home/yuichi-katagiri/Subjects/Robotics/ex02/install/sawaragi/lib/python3.10/site-packages/sawaragi-0.0.0-py3.10.egg-info
+[0.770s] running install_scripts
+[0.788s] Installing fixed_frame_tf2_broadcaster script to /home/yuichi-katagiri/Subjects/Robotics/ex02/install/sawaragi/lib/sawaragi
+[0.788s] Installing turtle_tf2_broadcaster script to /home/yuichi-katagiri/Subjects/Robotics/ex02/install/sawaragi/lib/sawaragi
+[0.788s] Installing turtle_tf2_listener script to /home/yuichi-katagiri/Subjects/Robotics/ex02/install/sawaragi/lib/sawaragi
+[0.788s] writing list of installed files to '/home/yuichi-katagiri/Subjects/Robotics/ex02/build/sawaragi/install.log'
+[0.810s] Invoked command in '/home/yuichi-katagiri/Subjects/Robotics/ex02/src/sawaragi' returned '0': PYTHONPATH=/home/yuichi-katagiri/Subjects/Robotics/ex02/build/sawaragi/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuichi-katagiri/Subjects/Robotics/ex02/install/sawaragi/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/sawaragi build --build-base /home/yuichi-katagiri/Subjects/Robotics/ex02/build/sawaragi/build install --record /home/yuichi-katagiri/Subjects/Robotics/ex02/build/sawaragi/install.log --single-version-externally-managed install_data

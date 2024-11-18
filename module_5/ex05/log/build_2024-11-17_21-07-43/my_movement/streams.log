@@ -1,0 +1,25 @@
+[0.613s] Invoking command in '/home/yuichi-katagiri/Subjects/Robotics/module_5/ex05/src/my_movement': PYTHONPATH=/home/yuichi-katagiri/Subjects/Robotics/module_5/ex05/build/my_movement/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuichi-katagiri/Subjects/Robotics/module_5/ex05/install/my_movement/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_movement build --build-base /home/yuichi-katagiri/Subjects/Robotics/module_5/ex05/build/my_movement/build install --record /home/yuichi-katagiri/Subjects/Robotics/module_5/ex05/build/my_movement/install.log --single-version-externally-managed install_data
+[0.837s] running egg_info
+[0.838s] writing ../../build/my_movement/my_movement.egg-info/PKG-INFO
+[0.838s] writing dependency_links to ../../build/my_movement/my_movement.egg-info/dependency_links.txt
+[0.838s] writing entry points to ../../build/my_movement/my_movement.egg-info/entry_points.txt
+[0.839s] writing requirements to ../../build/my_movement/my_movement.egg-info/requires.txt
+[0.839s] writing top-level names to ../../build/my_movement/my_movement.egg-info/top_level.txt
+[0.841s] reading manifest file '../../build/my_movement/my_movement.egg-info/SOURCES.txt'
+[0.841s] writing manifest file '../../build/my_movement/my_movement.egg-info/SOURCES.txt'
+[0.842s] running build
+[0.842s] running build_py
+[0.842s] copying my_movement/star_movement.py -> /home/yuichi-katagiri/Subjects/Robotics/module_5/ex05/build/my_movement/build/lib/my_movement
+[0.842s] running install
+[0.842s] running install_lib
+[0.843s] copying /home/yuichi-katagiri/Subjects/Robotics/module_5/ex05/build/my_movement/build/lib/my_movement/star_movement.py -> /home/yuichi-katagiri/Subjects/Robotics/module_5/ex05/install/my_movement/lib/python3.10/site-packages/my_movement
+[0.843s] byte-compiling /home/yuichi-katagiri/Subjects/Robotics/module_5/ex05/install/my_movement/lib/python3.10/site-packages/my_movement/star_movement.py to star_movement.cpython-310.pyc
+[0.844s] running install_data
+[0.845s] running install_egg_info
+[0.846s] removing '/home/yuichi-katagiri/Subjects/Robotics/module_5/ex05/install/my_movement/lib/python3.10/site-packages/my_movement-0.0.0-py3.10.egg-info' (and everything under it)
+[0.846s] Copying ../../build/my_movement/my_movement.egg-info to /home/yuichi-katagiri/Subjects/Robotics/module_5/ex05/install/my_movement/lib/python3.10/site-packages/my_movement-0.0.0-py3.10.egg-info
+[0.847s] running install_scripts
+[0.867s] Installing circle_movement script to /home/yuichi-katagiri/Subjects/Robotics/module_5/ex05/install/my_movement/lib/my_movement
+[0.867s] Installing star_movement script to /home/yuichi-katagiri/Subjects/Robotics/module_5/ex05/install/my_movement/lib/my_movement
+[0.867s] writing list of installed files to '/home/yuichi-katagiri/Subjects/Robotics/module_5/ex05/build/my_movement/install.log'
+[0.889s] Invoked command in '/home/yuichi-katagiri/Subjects/Robotics/module_5/ex05/src/my_movement' returned '0': PYTHONPATH=/home/yuichi-katagiri/Subjects/Robotics/module_5/ex05/build/my_movement/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuichi-katagiri/Subjects/Robotics/module_5/ex05/install/my_movement/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_movement build --build-base /home/yuichi-katagiri/Subjects/Robotics/module_5/ex05/build/my_movement/build install --record /home/yuichi-katagiri/Subjects/Robotics/module_5/ex05/build/my_movement/install.log --single-version-externally-managed install_data

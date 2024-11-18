@@ -1,0 +1,18 @@
+{
+  "python.autoComplete.extraPaths": [
+    "/home/yuichi-katagiri/Subjects/Robotics/module_5/ex05/install/my_movement/lib/python3.10/site-packages",
+    "/home/yuichi-katagiri/ros2_ws/install/tomodachi/lib/python3.10/site-packages",
+    "/home/yuichi-katagiri/ros2_ws/install/manabu/lib/python3.10/site-packages",
+    "/home/yuichi-katagiri/ros2_ws/install/colcon-ed/lib/python3.10/site-packages",
+    "/opt/ros/humble/lib/python3.10/site-packages",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages"
+  ],
+  "python.analysis.extraPaths": [
+    "/home/yuichi-katagiri/Subjects/Robotics/module_5/ex05/install/my_movement/lib/python3.10/site-packages",
+    "/home/yuichi-katagiri/ros2_ws/install/tomodachi/lib/python3.10/site-packages",
+    "/home/yuichi-katagiri/ros2_ws/install/manabu/lib/python3.10/site-packages",
+    "/home/yuichi-katagiri/ros2_ws/install/colcon-ed/lib/python3.10/site-packages",
+    "/opt/ros/humble/lib/python3.10/site-packages",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages"
+  ]
+}

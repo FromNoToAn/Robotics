@@ -1,0 +1,6 @@
+source;share/kokorogi/hook/pythonpath.ps1
+source;share/kokorogi/hook/pythonpath.dsv
+source;share/kokorogi/hook/pythonpath.sh
+source;share/kokorogi/hook/ament_prefix_path.ps1
+source;share/kokorogi/hook/ament_prefix_path.dsv
+source;share/kokorogi/hook/ament_prefix_path.sh

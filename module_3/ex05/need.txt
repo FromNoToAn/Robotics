@@ -1,0 +1,6 @@
+ros2 run turtlesim turtlesim_node
+
+colcon build --packages-select move_to_goal
+ros2 run move_to_goal move_to_goal --x 5.5 --y 5.5 --theta 0.0
+
+ros2 topic echo /turtle1/pose

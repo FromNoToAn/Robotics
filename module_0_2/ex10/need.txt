@@ -1,0 +1,3 @@
+ros2 run turtlesim turtlesim_node
+ros2 run manabu text_to_cmd_vel
+ros2 topic pub -1 /cmd_text std_msgs/msg/String "data: 'move_forward'"

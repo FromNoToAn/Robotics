@@ -1,0 +1,30 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from example_interfaces/action/MessageTurtleCommands.action
+// generated code does not contain a copyright notice
+
+
+module example_interfaces {
+  module action {
+    @verbatim (language="comment", text=
+      "goal definition")
+    struct MessageTurtleCommands_Goal {
+      @verbatim (language="comment", text=
+        "“forward”,”turn_left”, “turn_right”")
+      string command;
+
+      double s;
+
+      double angle;
+    };
+    @verbatim (language="comment", text=
+      "result definition")
+    struct MessageTurtleCommands_Result {
+      boolean result;
+    };
+    @verbatim (language="comment", text=
+      "feedback")
+    struct MessageTurtleCommands_Feedback {
+      double odom;
+    };
+  };
+};

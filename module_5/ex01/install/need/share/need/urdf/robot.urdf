@@ -1,0 +1,383 @@
+<?xml version="1.0"?>
+<robot name="physics">
+
+  <material name="blue">
+    <color rgba="0 0 0.8 1"/>
+  </material>
+  <material name="black">
+    <color rgba="0 0 0 1"/>
+  </material>
+  <material name="white">
+    <color rgba="1 1 1 1"/>
+  </material>
+  <material name="pink">
+    <color rgba="1 0.7 0.85 1"/>
+  </material>
+  <material name="light_pink">
+    <color rgba="1 0.9 0.99 1"/>
+  </material>
+  <material name="dark_pink">
+    <color rgba="0.7 0.5 0.6 1"/>
+  </material>
+
+<link name="base_link">
+  <visual>
+    <geometry>
+      <cylinder length="0.5" radius="0.2"/>
+    </geometry>
+    <material name="pink"/>
+    <origin rpy="1.5708 0 1.5708" xyz="0 0 0"/>
+  </visual>
+  <collision>
+    <geometry>
+      <cylinder length="0.5" radius="0.2"/>
+    </geometry>
+    <origin rpy="1.5708 0 1.5708" xyz="0 0 0"/>
+  </collision>
+  <inertial>
+    <mass value="10"/>
+    <inertia ixx="1e-3" ixy="0.0" ixz="0.0" iyy="1e-3" iyz="0.0" izz="1e-3"/>
+  </inertial>
+</link>
+
+
+  <link name="right_top_leg">
+    <visual>
+      <geometry>
+        <box size="0.1 0.1 0.3"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="0.175 -0.2 -0.1"/>
+      <material name="light_pink"/>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.1 0.1 0.3"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="0.175 -0.2 -0.1"/>
+    </collision>
+    <inertial>
+      <mass value="10"/>
+      <inertia ixx="1e-3" ixy="0.0" ixz="0.0" iyy="1e-3" iyz="0.0" izz="1e-3"/>
+    </inertial>
+  </link>
+  <joint name="base_to_right_top_leg" type="fixed">
+    <parent link="base_link"/>
+    <child link="right_top_leg"/>
+    <origin xyz="0 0 0"/>
+  </joint>
+  
+  <link name="right_back_leg">
+    <visual>
+      <geometry>
+        <box size="0.1 0.1 0.3"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="-0.175 -0.2 -0.1"/>
+      <material name="light_pink"/>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.1 0.1 0.3"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="-0.175 -0.2 -0.1"/>
+    </collision>
+    <inertial>
+      <mass value="10"/>
+      <inertia ixx="1e-3" ixy="0.0" ixz="0.0" iyy="1e-3" iyz="0.0" izz="1e-3"/>
+    </inertial>
+  </link>
+  <joint name="base_to_right_back_leg" type="fixed">
+    <parent link="base_link"/>
+    <child link="right_back_leg"/>
+    <origin xyz="0 0 0"/>
+  </joint>
+  
+  <link name="left_top_leg">
+    <visual>
+      <geometry>
+        <box size="0.1 0.1 0.3"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="0.175 0.2 -0.1"/>
+      <material name="light_pink"/>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.1 0.1 0.3"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="0.175 0.2 -0.1"/>
+    </collision>
+    <inertial>
+      <mass value="10"/>
+      <inertia ixx="1e-3" ixy="0.0" ixz="0.0" iyy="1e-3" iyz="0.0" izz="1e-3"/>
+    </inertial>
+  </link>
+  <joint name="base_to_left_top_leg" type="fixed">
+    <parent link="base_link"/>
+    <child link="left_top_leg"/>
+    <origin xyz="0 0 0"/>
+  </joint>
+  
+  <link name="left_back_leg">
+    <visual>
+      <geometry>
+        <box size="0.1 0.1 0.3"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="-0.175 0.2 -0.1"/>
+      <material name="light_pink"/>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.1 0.1 0.3"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="-0.175 0.2 -0.1"/>
+    </collision>
+    <inertial>
+      <mass value="10"/>
+      <inertia ixx="1e-3" ixy="0.0" ixz="0.0" iyy="1e-3" iyz="0.0" izz="1e-3"/>
+    </inertial>
+  </link>
+  <joint name="base_to_left_back_leg" type="fixed">
+    <parent link="base_link"/>
+    <child link="left_back_leg"/>
+    <origin xyz="0 0 0"/>
+  </joint>
+
+  <link name="right_front_wheel">
+    <visual>
+      <origin rpy="1.57075 0 0" xyz="0 0 0"/>
+      <geometry>
+        <cylinder length="0.1" radius="0.04"/>
+      </geometry>
+      <material name="black"/>
+    </visual>
+    <collision>
+      <origin rpy="1.57075 0 0" xyz="0 0 0"/>
+      <geometry>
+        <cylinder length="0.1" radius="0.04"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="1"/>
+      <inertia ixx="1e-3" ixy="0.0" ixz="0.0" iyy="1e-3" iyz="0.0" izz="1e-3"/>
+    </inertial>
+  </link>
+
+  <joint name="right_front_wheel_joint" type="continuous">
+    <axis rpy="0 0 0" xyz="0 1 0"/>
+    <parent link="right_top_leg"/>
+    <child link="right_front_wheel"/>
+    <origin rpy="0 0 0" xyz="0.175 -0.2 -0.29"/>
+  </joint>
+  
+  
+  <link name="right_back_wheel">
+    <visual>
+      <origin rpy="1.57075 0 0" xyz="0 0 0"/>
+      <geometry>
+        <cylinder length="0.1" radius="0.04"/>
+      </geometry>
+      <material name="black"/>
+    </visual>
+    <collision>
+      <origin rpy="1.57075 0 0" xyz="0 0 0"/>
+      <geometry>
+        <cylinder length="0.1" radius="0.04"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="1"/>
+      <inertia ixx="1e-3" ixy="0.0" ixz="0.0" iyy="1e-3" iyz="0.0" izz="1e-3"/>
+    </inertial>
+  </link>
+
+  <joint name="right_back_wheel_joint" type="continuous">
+    <axis rpy="0 0 0" xyz="0 1 0"/>
+    <parent link="right_back_leg"/>
+    <child link="right_back_wheel"/>
+    <origin rpy="0 0 0" xyz="-0.175 -0.2 -0.29"/>
+  </joint>
+  
+  <link name="left_front_wheel">
+    <visual>
+      <origin rpy="1.57075 0 0" xyz="0 0 0"/>
+      <geometry>
+        <cylinder length="0.1" radius="0.04"/>
+      </geometry>
+      <material name="black"/>
+    </visual>
+    <collision>
+      <origin rpy="1.57075 0 0" xyz="0 0 0"/>
+      <geometry>
+        <cylinder length="0.1" radius="0.04"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="1"/>
+      <inertia ixx="1e-3" ixy="0.0" ixz="0.0" iyy="1e-3" iyz="0.0" izz="1e-3"/>
+    </inertial>
+  </link>
+
+  <joint name="left_front_wheel_joint" type="continuous">
+    <axis rpy="0 0 0" xyz="0 1 0"/>
+    <parent link="left_top_leg"/>
+    <child link="left_front_wheel"/>
+    <origin rpy="0 0 0" xyz="0.175 0.2 -0.29"/>
+  </joint>
+  
+  <link name="left_back_wheel">
+    <visual>
+      <origin rpy="1.57075 0 0" xyz="0 0 0"/>
+      <geometry>
+        <cylinder length="0.1" radius="0.04"/>
+      </geometry>
+      <material name="black"/>
+    </visual>
+    <collision>
+      <origin rpy="1.57075 0 0" xyz="0 0 0"/>
+      <geometry>
+        <cylinder length="0.1" radius="0.04"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="1"/>
+      <inertia ixx="1e-3" ixy="0.0" ixz="0.0" iyy="1e-3" iyz="0.0" izz="1e-3"/>
+    </inertial>
+  </link>
+
+  <joint name="left_back_wheel_joint" type="continuous">
+    <axis rpy="0 0 0" xyz="0 1 0"/>
+    <parent link="left_back_leg"/>
+    <child link="left_back_wheel"/>
+    <origin rpy="0 0 0" xyz="-0.175 0.2 -0.29"/>
+  </joint>
+  
+  
+  <link name="head">
+   <visual>
+     <geometry>
+       <cylinder length="0.04" radius="0.15"/>
+     </geometry>
+     <material name="dark_pink"/>
+     <origin rpy="1.5708 0 1.5708" xyz="0 0 0"/>
+   </visual>
+   <collision>
+     <geometry>
+       <cylinder length="0.04" radius="0.15"/>
+     </geometry>
+     <origin rpy="1.5708 0 1.5708" xyz="0 0 0"/>
+   </collision>
+   <inertial>
+     <mass value="10"/>
+     <inertia ixx="1e-3" ixy="0.0" ixz="0.0" iyy="1e-3" iyz="0.0" izz="1e-3"/>
+   </inertial>
+  </link>
+  <joint name="head_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="head"/>
+    <origin xyz="0.25 0 0"/>
+  </joint>
+  
+  <link name="left_eye">
+   <visual>
+     <geometry>
+       <cylinder length="0.01" radius="0.025"/>
+     </geometry>
+     <material name="black"/>
+     <origin rpy="1.5708 0 1.5708" xyz="0 0 0"/>
+   </visual>
+   <collision>
+     <geometry>
+       <cylinder length="0.01" radius="0.025"/>
+     </geometry>
+     <origin rpy="1.5708 0 1.5708" xyz="0 0 0"/>
+   </collision>
+   <inertial>
+     <mass value="10"/>
+     <inertia ixx="1e-3" ixy="0.0" ixz="0.0" iyy="1e-3" iyz="0.0" izz="1e-3"/>
+   </inertial>
+  </link>
+  <joint name="left_eye_joint" type="continuous">
+    <axis rpy="0 0 0" xyz="0 1 0"/>
+    <parent link="head"/>
+    <child link="left_eye"/>
+    <origin rpy="0 0 0" xyz="0.02 0.05 0.05"/>
+  </joint>
+  
+  <link name="right_eye">
+   <visual>
+     <geometry>
+       <cylinder length="0.01" radius="0.025"/>
+     </geometry>
+     <material name="black"/>
+     <origin rpy="1.5708 0 1.5708" xyz="0 0 0"/>
+   </visual>
+   <collision>
+     <geometry>
+       <cylinder length="0.01" radius="0.025"/>
+     </geometry>
+     <origin rpy="1.5708 0 1.5708" xyz="0 0 0"/>
+   </collision>
+   <inertial>
+     <mass value="10"/>
+     <inertia ixx="1e-3" ixy="0.0" ixz="0.0" iyy="1e-3" iyz="0.0" izz="1e-3"/>
+   </inertial>
+  </link>
+  <joint name="right_eye_joint" type="continuous">
+    <axis rpy="0 0 0" xyz="0 1 0"/>
+    <parent link="head"/>
+    <child link="right_eye"/>
+    <origin rpy="0 0 0" xyz="0.02 -0.05 0.05"/>
+  </joint>
+  
+  <link name="left_ear">
+   <visual>
+     <geometry>
+       <cylinder length="0.04" radius="0.05"/>
+     </geometry>
+     <material name="light_pink"/>
+     <origin rpy="1.5708 0 1.5708" xyz="0 0 0"/>
+   </visual>
+   <collision>
+     <geometry>
+       <cylinder length="0.04" radius="0.05"/>
+     </geometry>
+     <origin rpy="1.5708 0 1.5708" xyz="0 0 0"/>
+   </collision>
+   <inertial>
+     <mass value="10"/>
+     <inertia ixx="1e-3" ixy="0.0" ixz="0.0" iyy="1e-3" iyz="0.0" izz="1e-3"/>
+   </inertial>
+  </link>
+  <joint name="left_ear_joint" type="continuous">
+    <axis rpy="0 0 0" xyz="0 1 0"/>
+    <parent link="head"/>
+    <child link="left_ear"/>
+    <origin rpy="0 0 0" xyz="-0.05 0.1 0.2"/>
+  </joint>
+  
+  <link name="right_ear">
+   <visual>
+     <geometry>
+       <cylinder length="0.04" radius="0.05"/>
+     </geometry>
+     <material name="light_pink"/>
+     <origin rpy="1.5708 0 1.5708" xyz="0 0 0"/>
+   </visual>
+   <collision>
+     <geometry>
+       <cylinder length="0.04" radius="0.05"/>
+     </geometry>
+     <origin rpy="1.5708 0 1.5708" xyz="0 0 0"/>
+   </collision>
+   <inertial>
+     <mass value="10"/>
+     <inertia ixx="1e-3" ixy="0.0" ixz="0.0" iyy="1e-3" iyz="0.0" izz="1e-3"/>
+   </inertial>
+  </link>
+  <joint name="right_ear_joint" type="continuous">
+    <axis rpy="0 0 0" xyz="0 1 0"/>
+    <parent link="head"/>
+    <child link="right_ear"/>
+    <origin rpy="0 0 0" xyz="-0.05 -0.1 0.2"/>
+  </joint>
+  
+</robot>

@@ -1,0 +1,5 @@
+  File "/home/yuichi-katagiri/Subjects/Robotics/module_5/ex05/install/my_movement/lib/python3.10/site-packages/my_movement/star_movement.py", line 70
+    return interpolated_points
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: 'return' outside function
+

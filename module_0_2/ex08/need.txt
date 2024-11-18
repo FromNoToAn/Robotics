@@ -1,0 +1,4 @@
+ros2 run rqt_console rqt_console
+
+ros2 launch three_turtles.launch.py
+

@@ -1,0 +1,42 @@
+[0.774s] Invoking command in '/home/yuichi-katagiri/Subjects/Robotics/ex01/src/tomodachi': PYTHONPATH=/home/yuichi-katagiri/Subjects/Robotics/ex01/build/tomodachi/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuichi-katagiri/Subjects/Robotics/ex01/install/tomodachi/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/tomodachi build --build-base /home/yuichi-katagiri/Subjects/Robotics/ex01/build/tomodachi/build install --record /home/yuichi-katagiri/Subjects/Robotics/ex01/build/tomodachi/install.log --single-version-externally-managed install_data
+[0.994s] running egg_info
+[0.995s] creating ../../build/tomodachi/tomodachi.egg-info
+[0.995s] writing ../../build/tomodachi/tomodachi.egg-info/PKG-INFO
+[0.995s] writing dependency_links to ../../build/tomodachi/tomodachi.egg-info/dependency_links.txt
+[0.995s] writing entry points to ../../build/tomodachi/tomodachi.egg-info/entry_points.txt
+[0.995s] writing requirements to ../../build/tomodachi/tomodachi.egg-info/requires.txt
+[0.996s] writing top-level names to ../../build/tomodachi/tomodachi.egg-info/top_level.txt
+[0.996s] writing manifest file '../../build/tomodachi/tomodachi.egg-info/SOURCES.txt'
+[0.998s] reading manifest file '../../build/tomodachi/tomodachi.egg-info/SOURCES.txt'
+[0.998s] adding license file 'LICENSE'
+[0.998s] writing manifest file '../../build/tomodachi/tomodachi.egg-info/SOURCES.txt'
+[0.998s] running build
+[0.999s] running build_py
+[0.999s] creating /home/yuichi-katagiri/Subjects/Robotics/ex01/build/tomodachi/build
+[0.999s] creating /home/yuichi-katagiri/Subjects/Robotics/ex01/build/tomodachi/build/lib
+[0.999s] creating /home/yuichi-katagiri/Subjects/Robotics/ex01/build/tomodachi/build/lib/tomodachi
+[0.999s] copying tomodachi/tomodachi_node.py -> /home/yuichi-katagiri/Subjects/Robotics/ex01/build/tomodachi/build/lib/tomodachi
+[0.999s] copying tomodachi/__init__.py -> /home/yuichi-katagiri/Subjects/Robotics/ex01/build/tomodachi/build/lib/tomodachi
+[0.999s] running install
+[1.000s] running install_lib
+[1.000s] creating /home/yuichi-katagiri/Subjects/Robotics/ex01/install/tomodachi/lib/python3.10/site-packages/tomodachi
+[1.001s] copying /home/yuichi-katagiri/Subjects/Robotics/ex01/build/tomodachi/build/lib/tomodachi/tomodachi_node.py -> /home/yuichi-katagiri/Subjects/Robotics/ex01/install/tomodachi/lib/python3.10/site-packages/tomodachi
+[1.001s] copying /home/yuichi-katagiri/Subjects/Robotics/ex01/build/tomodachi/build/lib/tomodachi/__init__.py -> /home/yuichi-katagiri/Subjects/Robotics/ex01/install/tomodachi/lib/python3.10/site-packages/tomodachi
+[1.001s] byte-compiling /home/yuichi-katagiri/Subjects/Robotics/ex01/install/tomodachi/lib/python3.10/site-packages/tomodachi/tomodachi_node.py to tomodachi_node.cpython-310.pyc
+[1.001s] byte-compiling /home/yuichi-katagiri/Subjects/Robotics/ex01/install/tomodachi/lib/python3.10/site-packages/tomodachi/__init__.py to __init__.cpython-310.pyc
+[1.002s] running install_data
+[1.002s] creating /home/yuichi-katagiri/Subjects/Robotics/ex01/install/tomodachi/share/ament_index
+[1.002s] creating /home/yuichi-katagiri/Subjects/Robotics/ex01/install/tomodachi/share/ament_index/resource_index
+[1.002s] creating /home/yuichi-katagiri/Subjects/Robotics/ex01/install/tomodachi/share/ament_index/resource_index/packages
+[1.002s] copying resource/tomodachi -> /home/yuichi-katagiri/Subjects/Robotics/ex01/install/tomodachi/share/ament_index/resource_index/packages
+[1.002s] copying package.xml -> /home/yuichi-katagiri/Subjects/Robotics/ex01/install/tomodachi/share/tomodachi
+[1.002s] creating /home/yuichi-katagiri/Subjects/Robotics/ex01/install/tomodachi/share/tomodachi/msg
+[1.003s] copying msg/FullNameMessage.msg -> /home/yuichi-katagiri/Subjects/Robotics/ex01/install/tomodachi/share/tomodachi/msg
+[1.003s] creating /home/yuichi-katagiri/Subjects/Robotics/ex01/install/tomodachi/share/tomodachi/srv
+[1.003s] copying srv/FullNameSumService.srv -> /home/yuichi-katagiri/Subjects/Robotics/ex01/install/tomodachi/share/tomodachi/srv
+[1.003s] running install_egg_info
+[1.004s] Copying ../../build/tomodachi/tomodachi.egg-info to /home/yuichi-katagiri/Subjects/Robotics/ex01/install/tomodachi/lib/python3.10/site-packages/tomodachi-0.0.0-py3.10.egg-info
+[1.005s] running install_scripts
+[1.027s] Installing my_node script to /home/yuichi-katagiri/Subjects/Robotics/ex01/install/tomodachi/lib/tomodachi
+[1.027s] writing list of installed files to '/home/yuichi-katagiri/Subjects/Robotics/ex01/build/tomodachi/install.log'
+[1.055s] Invoked command in '/home/yuichi-katagiri/Subjects/Robotics/ex01/src/tomodachi' returned '0': PYTHONPATH=/home/yuichi-katagiri/Subjects/Robotics/ex01/build/tomodachi/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuichi-katagiri/Subjects/Robotics/ex01/install/tomodachi/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/tomodachi build --build-base /home/yuichi-katagiri/Subjects/Robotics/ex01/build/tomodachi/build install --record /home/yuichi-katagiri/Subjects/Robotics/ex01/build/tomodachi/install.log --single-version-externally-managed install_data

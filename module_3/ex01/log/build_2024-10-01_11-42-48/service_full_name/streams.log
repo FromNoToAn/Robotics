@@ -1,0 +1,22 @@
+[0.525s] Invoking command in '/home/yuichi-katagiri/Subjects/Robotics/ex01/src/service_full_name': PYTHONPATH=/home/yuichi-katagiri/Subjects/Robotics/ex01/build/service_full_name/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuichi-katagiri/Subjects/Robotics/ex01/install/service_full_name/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/service_full_name build --build-base /home/yuichi-katagiri/Subjects/Robotics/ex01/build/service_full_name/build install --record /home/yuichi-katagiri/Subjects/Robotics/ex01/build/service_full_name/install.log --single-version-externally-managed install_data
+[0.738s] running egg_info
+[0.738s] writing ../../build/service_full_name/service_full_name.egg-info/PKG-INFO
+[0.739s] writing dependency_links to ../../build/service_full_name/service_full_name.egg-info/dependency_links.txt
+[0.739s] writing entry points to ../../build/service_full_name/service_full_name.egg-info/entry_points.txt
+[0.739s] writing requirements to ../../build/service_full_name/service_full_name.egg-info/requires.txt
+[0.739s] writing top-level names to ../../build/service_full_name/service_full_name.egg-info/top_level.txt
+[0.740s] reading manifest file '../../build/service_full_name/service_full_name.egg-info/SOURCES.txt'
+[0.740s] adding license file 'LICENSE'
+[0.741s] writing manifest file '../../build/service_full_name/service_full_name.egg-info/SOURCES.txt'
+[0.741s] running build
+[0.741s] running build_py
+[0.741s] running install
+[0.742s] running install_lib
+[0.743s] running install_data
+[0.743s] running install_egg_info
+[0.744s] removing '/home/yuichi-katagiri/Subjects/Robotics/ex01/install/service_full_name/lib/python3.10/site-packages/service_full_name-0.0.0-py3.10.egg-info' (and everything under it)
+[0.745s] Copying ../../build/service_full_name/service_full_name.egg-info to /home/yuichi-katagiri/Subjects/Robotics/ex01/install/service_full_name/lib/python3.10/site-packages/service_full_name-0.0.0-py3.10.egg-info
+[0.745s] running install_scripts
+[0.764s] Installing my_node script to /home/yuichi-katagiri/Subjects/Robotics/ex01/install/service_full_name/lib/service_full_name
+[0.765s] writing list of installed files to '/home/yuichi-katagiri/Subjects/Robotics/ex01/build/service_full_name/install.log'
+[0.786s] Invoked command in '/home/yuichi-katagiri/Subjects/Robotics/ex01/src/service_full_name' returned '0': PYTHONPATH=/home/yuichi-katagiri/Subjects/Robotics/ex01/build/service_full_name/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuichi-katagiri/Subjects/Robotics/ex01/install/service_full_name/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/service_full_name build --build-base /home/yuichi-katagiri/Subjects/Robotics/ex01/build/service_full_name/build install --record /home/yuichi-katagiri/Subjects/Robotics/ex01/build/service_full_name/install.log --single-version-externally-managed install_data

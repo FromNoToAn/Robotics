@@ -1,0 +1,4 @@
+[console_scripts]
+action_turtle_client = action_turtle_commands.action_turtle_client:main
+action_turtle_server = action_turtle_commands.action_turtle_server:main
+

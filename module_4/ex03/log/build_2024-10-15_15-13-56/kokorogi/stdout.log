@@ -1,0 +1,32 @@
+running egg_info
+creating ../../build/kokorogi/kokorogi.egg-info
+writing ../../build/kokorogi/kokorogi.egg-info/PKG-INFO
+writing dependency_links to ../../build/kokorogi/kokorogi.egg-info/dependency_links.txt
+writing entry points to ../../build/kokorogi/kokorogi.egg-info/entry_points.txt
+writing requirements to ../../build/kokorogi/kokorogi.egg-info/requires.txt
+writing top-level names to ../../build/kokorogi/kokorogi.egg-info/top_level.txt
+writing manifest file '../../build/kokorogi/kokorogi.egg-info/SOURCES.txt'
+reading manifest file '../../build/kokorogi/kokorogi.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/kokorogi/kokorogi.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/yuichi-katagiri/Subjects/Robotics/ex03/build/kokorogi/build
+creating /home/yuichi-katagiri/Subjects/Robotics/ex03/build/kokorogi/build/lib
+creating /home/yuichi-katagiri/Subjects/Robotics/ex03/build/kokorogi/build/lib/kokorogi
+copying kokorogi/__init__.py -> /home/yuichi-katagiri/Subjects/Robotics/ex03/build/kokorogi/build/lib/kokorogi
+running install
+running install_lib
+creating /home/yuichi-katagiri/Subjects/Robotics/ex03/install/kokorogi/lib/python3.10/site-packages/kokorogi
+copying /home/yuichi-katagiri/Subjects/Robotics/ex03/build/kokorogi/build/lib/kokorogi/__init__.py -> /home/yuichi-katagiri/Subjects/Robotics/ex03/install/kokorogi/lib/python3.10/site-packages/kokorogi
+byte-compiling /home/yuichi-katagiri/Subjects/Robotics/ex03/install/kokorogi/lib/python3.10/site-packages/kokorogi/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/yuichi-katagiri/Subjects/Robotics/ex03/install/kokorogi/share/ament_index
+creating /home/yuichi-katagiri/Subjects/Robotics/ex03/install/kokorogi/share/ament_index/resource_index
+creating /home/yuichi-katagiri/Subjects/Robotics/ex03/install/kokorogi/share/ament_index/resource_index/packages
+copying resource/kokorogi -> /home/yuichi-katagiri/Subjects/Robotics/ex03/install/kokorogi/share/ament_index/resource_index/packages
+copying package.xml -> /home/yuichi-katagiri/Subjects/Robotics/ex03/install/kokorogi/share/kokorogi
+running install_egg_info
+Copying ../../build/kokorogi/kokorogi.egg-info to /home/yuichi-katagiri/Subjects/Robotics/ex03/install/kokorogi/lib/python3.10/site-packages/kokorogi-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/yuichi-katagiri/Subjects/Robotics/ex03/build/kokorogi/install.log'

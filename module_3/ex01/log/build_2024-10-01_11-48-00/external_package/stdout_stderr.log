@@ -1,0 +1,32 @@
+running egg_info
+creating ../../build/external_package/external_package.egg-info
+writing ../../build/external_package/external_package.egg-info/PKG-INFO
+writing dependency_links to ../../build/external_package/external_package.egg-info/dependency_links.txt
+writing entry points to ../../build/external_package/external_package.egg-info/entry_points.txt
+writing requirements to ../../build/external_package/external_package.egg-info/requires.txt
+writing top-level names to ../../build/external_package/external_package.egg-info/top_level.txt
+writing manifest file '../../build/external_package/external_package.egg-info/SOURCES.txt'
+reading manifest file '../../build/external_package/external_package.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/external_package/external_package.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/yuichi-katagiri/Subjects/Robotics/ex01/build/external_package/build
+creating /home/yuichi-katagiri/Subjects/Robotics/ex01/build/external_package/build/lib
+creating /home/yuichi-katagiri/Subjects/Robotics/ex01/build/external_package/build/lib/external_package
+copying external_package/__init__.py -> /home/yuichi-katagiri/Subjects/Robotics/ex01/build/external_package/build/lib/external_package
+running install
+running install_lib
+creating /home/yuichi-katagiri/Subjects/Robotics/ex01/install/external_package/lib/python3.10/site-packages/external_package
+copying /home/yuichi-katagiri/Subjects/Robotics/ex01/build/external_package/build/lib/external_package/__init__.py -> /home/yuichi-katagiri/Subjects/Robotics/ex01/install/external_package/lib/python3.10/site-packages/external_package
+byte-compiling /home/yuichi-katagiri/Subjects/Robotics/ex01/install/external_package/lib/python3.10/site-packages/external_package/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/yuichi-katagiri/Subjects/Robotics/ex01/install/external_package/share/ament_index
+creating /home/yuichi-katagiri/Subjects/Robotics/ex01/install/external_package/share/ament_index/resource_index
+creating /home/yuichi-katagiri/Subjects/Robotics/ex01/install/external_package/share/ament_index/resource_index/packages
+copying resource/external_package -> /home/yuichi-katagiri/Subjects/Robotics/ex01/install/external_package/share/ament_index/resource_index/packages
+copying package.xml -> /home/yuichi-katagiri/Subjects/Robotics/ex01/install/external_package/share/external_package
+running install_egg_info
+Copying ../../build/external_package/external_package.egg-info to /home/yuichi-katagiri/Subjects/Robotics/ex01/install/external_package/lib/python3.10/site-packages/external_package-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/yuichi-katagiri/Subjects/Robotics/ex01/build/external_package/install.log'

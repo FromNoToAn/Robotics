@@ -1,0 +1,26 @@
+running egg_info
+writing ../../build/sawaragi/sawaragi.egg-info/PKG-INFO
+writing dependency_links to ../../build/sawaragi/sawaragi.egg-info/dependency_links.txt
+writing entry points to ../../build/sawaragi/sawaragi.egg-info/entry_points.txt
+writing requirements to ../../build/sawaragi/sawaragi.egg-info/requires.txt
+writing top-level names to ../../build/sawaragi/sawaragi.egg-info/top_level.txt
+reading manifest file '../../build/sawaragi/sawaragi.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/sawaragi/sawaragi.egg-info/SOURCES.txt'
+running build
+running build_py
+copying sawaragi/fixed_frame_tf2_broadcaster.py -> /home/yuichi-katagiri/Subjects/Robotics/ex02/build/sawaragi/build/lib/sawaragi
+running install
+running install_lib
+copying /home/yuichi-katagiri/Subjects/Robotics/ex02/build/sawaragi/build/lib/sawaragi/fixed_frame_tf2_broadcaster.py -> /home/yuichi-katagiri/Subjects/Robotics/ex02/install/sawaragi/lib/python3.10/site-packages/sawaragi
+byte-compiling /home/yuichi-katagiri/Subjects/Robotics/ex02/install/sawaragi/lib/python3.10/site-packages/sawaragi/fixed_frame_tf2_broadcaster.py to fixed_frame_tf2_broadcaster.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/yuichi-katagiri/Subjects/Robotics/ex02/install/sawaragi/lib/python3.10/site-packages/sawaragi-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/sawaragi/sawaragi.egg-info to /home/yuichi-katagiri/Subjects/Robotics/ex02/install/sawaragi/lib/python3.10/site-packages/sawaragi-0.0.0-py3.10.egg-info
+running install_scripts
+Installing fixed_frame_tf2_broadcaster script to /home/yuichi-katagiri/Subjects/Robotics/ex02/install/sawaragi/lib/sawaragi
+Installing static_turtle_tf2_broadcaster script to /home/yuichi-katagiri/Subjects/Robotics/ex02/install/sawaragi/lib/sawaragi
+Installing turtle_tf2_broadcaster script to /home/yuichi-katagiri/Subjects/Robotics/ex02/install/sawaragi/lib/sawaragi
+Installing turtle_tf2_listener script to /home/yuichi-katagiri/Subjects/Robotics/ex02/install/sawaragi/lib/sawaragi
+writing list of installed files to '/home/yuichi-katagiri/Subjects/Robotics/ex02/build/sawaragi/install.log'

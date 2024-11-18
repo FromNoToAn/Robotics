@@ -1,0 +1,26 @@
+[0.563s] Invoking command in '/home/yuichi-katagiri/Subjects/Robotics/ex02/src/action_turtle_commands': PYTHONPATH=/home/yuichi-katagiri/Subjects/Robotics/ex02/build/action_turtle_commands/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuichi-katagiri/Subjects/Robotics/ex02/install/action_turtle_commands/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/action_turtle_commands build --build-base /home/yuichi-katagiri/Subjects/Robotics/ex02/build/action_turtle_commands/build install --record /home/yuichi-katagiri/Subjects/Robotics/ex02/build/action_turtle_commands/install.log --single-version-externally-managed install_data
+[0.814s] running egg_info
+[0.815s] writing ../../build/action_turtle_commands/action_turtle_commands.egg-info/PKG-INFO
+[0.815s] writing dependency_links to ../../build/action_turtle_commands/action_turtle_commands.egg-info/dependency_links.txt
+[0.815s] writing entry points to ../../build/action_turtle_commands/action_turtle_commands.egg-info/entry_points.txt
+[0.815s] writing requirements to ../../build/action_turtle_commands/action_turtle_commands.egg-info/requires.txt
+[0.816s] writing top-level names to ../../build/action_turtle_commands/action_turtle_commands.egg-info/top_level.txt
+[0.817s] reading manifest file '../../build/action_turtle_commands/action_turtle_commands.egg-info/SOURCES.txt'
+[0.817s] adding license file 'LICENSE'
+[0.818s] writing manifest file '../../build/action_turtle_commands/action_turtle_commands.egg-info/SOURCES.txt'
+[0.818s] running build
+[0.818s] running build_py
+[0.819s] copying action_turtle_commands/action_turtle_server.py -> /home/yuichi-katagiri/Subjects/Robotics/ex02/build/action_turtle_commands/build/lib/action_turtle_commands
+[0.819s] running install
+[0.819s] running install_lib
+[0.820s] copying /home/yuichi-katagiri/Subjects/Robotics/ex02/build/action_turtle_commands/build/lib/action_turtle_commands/action_turtle_server.py -> /home/yuichi-katagiri/Subjects/Robotics/ex02/install/action_turtle_commands/lib/python3.10/site-packages/action_turtle_commands
+[0.821s] byte-compiling /home/yuichi-katagiri/Subjects/Robotics/ex02/install/action_turtle_commands/lib/python3.10/site-packages/action_turtle_commands/action_turtle_server.py to action_turtle_server.cpython-310.pyc
+[0.822s] running install_data
+[0.822s] running install_egg_info
+[0.824s] removing '/home/yuichi-katagiri/Subjects/Robotics/ex02/install/action_turtle_commands/lib/python3.10/site-packages/action_turtle_commands-0.0.0-py3.10.egg-info' (and everything under it)
+[0.824s] Copying ../../build/action_turtle_commands/action_turtle_commands.egg-info to /home/yuichi-katagiri/Subjects/Robotics/ex02/install/action_turtle_commands/lib/python3.10/site-packages/action_turtle_commands-0.0.0-py3.10.egg-info
+[0.825s] running install_scripts
+[0.846s] Installing action_turtle_client script to /home/yuichi-katagiri/Subjects/Robotics/ex02/install/action_turtle_commands/lib/action_turtle_commands
+[0.847s] Installing action_turtle_server script to /home/yuichi-katagiri/Subjects/Robotics/ex02/install/action_turtle_commands/lib/action_turtle_commands
+[0.847s] writing list of installed files to '/home/yuichi-katagiri/Subjects/Robotics/ex02/build/action_turtle_commands/install.log'
+[0.870s] Invoked command in '/home/yuichi-katagiri/Subjects/Robotics/ex02/src/action_turtle_commands' returned '0': PYTHONPATH=/home/yuichi-katagiri/Subjects/Robotics/ex02/build/action_turtle_commands/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuichi-katagiri/Subjects/Robotics/ex02/install/action_turtle_commands/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/action_turtle_commands build --build-base /home/yuichi-katagiri/Subjects/Robotics/ex02/build/action_turtle_commands/build install --record /home/yuichi-katagiri/Subjects/Robotics/ex02/build/action_turtle_commands/install.log --single-version-externally-managed install_data

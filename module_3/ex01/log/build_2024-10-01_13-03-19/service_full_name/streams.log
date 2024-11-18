@@ -1,0 +1,29 @@
+[0.533s] Invoking command in '/home/yuichi-katagiri/Subjects/Robotics/ex01/src/service_full_name': PYTHONPATH=/home/yuichi-katagiri/Subjects/Robotics/ex01/build/service_full_name/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuichi-katagiri/Subjects/Robotics/ex01/install/service_full_name/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/service_full_name build --build-base /home/yuichi-katagiri/Subjects/Robotics/ex01/build/service_full_name/build install --record /home/yuichi-katagiri/Subjects/Robotics/ex01/build/service_full_name/install.log --single-version-externally-managed install_data
+[0.751s] running egg_info
+[0.751s] writing ../../build/service_full_name/service_full_name.egg-info/PKG-INFO
+[0.752s] writing dependency_links to ../../build/service_full_name/service_full_name.egg-info/dependency_links.txt
+[0.752s] writing entry points to ../../build/service_full_name/service_full_name.egg-info/entry_points.txt
+[0.752s] writing requirements to ../../build/service_full_name/service_full_name.egg-info/requires.txt
+[0.752s] writing top-level names to ../../build/service_full_name/service_full_name.egg-info/top_level.txt
+[0.753s] reading manifest file '../../build/service_full_name/service_full_name.egg-info/SOURCES.txt'
+[0.753s] adding license file 'LICENSE'
+[0.754s] writing manifest file '../../build/service_full_name/service_full_name.egg-info/SOURCES.txt'
+[0.754s] running build
+[0.754s] running build_py
+[0.754s] copying service_full_name/client_file.py -> /home/yuichi-katagiri/Subjects/Robotics/ex01/build/service_full_name/build/lib/service_full_name
+[0.755s] copying service_full_name/service_file.py -> /home/yuichi-katagiri/Subjects/Robotics/ex01/build/service_full_name/build/lib/service_full_name
+[0.755s] running install
+[0.755s] running install_lib
+[0.756s] copying /home/yuichi-katagiri/Subjects/Robotics/ex01/build/service_full_name/build/lib/service_full_name/client_file.py -> /home/yuichi-katagiri/Subjects/Robotics/ex01/install/service_full_name/lib/python3.10/site-packages/service_full_name
+[0.756s] copying /home/yuichi-katagiri/Subjects/Robotics/ex01/build/service_full_name/build/lib/service_full_name/service_file.py -> /home/yuichi-katagiri/Subjects/Robotics/ex01/install/service_full_name/lib/python3.10/site-packages/service_full_name
+[0.756s] byte-compiling /home/yuichi-katagiri/Subjects/Robotics/ex01/install/service_full_name/lib/python3.10/site-packages/service_full_name/client_file.py to client_file.cpython-310.pyc
+[0.762s] byte-compiling /home/yuichi-katagiri/Subjects/Robotics/ex01/install/service_full_name/lib/python3.10/site-packages/service_full_name/service_file.py to service_file.cpython-310.pyc
+[0.763s] running install_data
+[0.764s] running install_egg_info
+[0.768s] removing '/home/yuichi-katagiri/Subjects/Robotics/ex01/install/service_full_name/lib/python3.10/site-packages/service_full_name-0.0.0-py3.10.egg-info' (and everything under it)
+[0.768s] Copying ../../build/service_full_name/service_full_name.egg-info to /home/yuichi-katagiri/Subjects/Robotics/ex01/install/service_full_name/lib/python3.10/site-packages/service_full_name-0.0.0-py3.10.egg-info
+[0.770s] running install_scripts
+[0.795s] Installing client_name script to /home/yuichi-katagiri/Subjects/Robotics/ex01/install/service_full_name/lib/service_full_name
+[0.795s] Installing my_node = service_full_name.my_node:mainservice_name script to /home/yuichi-katagiri/Subjects/Robotics/ex01/install/service_full_name/lib/service_full_name
+[0.795s] writing list of installed files to '/home/yuichi-katagiri/Subjects/Robotics/ex01/build/service_full_name/install.log'
+[0.817s] Invoked command in '/home/yuichi-katagiri/Subjects/Robotics/ex01/src/service_full_name' returned '0': PYTHONPATH=/home/yuichi-katagiri/Subjects/Robotics/ex01/build/service_full_name/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuichi-katagiri/Subjects/Robotics/ex01/install/service_full_name/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/service_full_name build --build-base /home/yuichi-katagiri/Subjects/Robotics/ex01/build/service_full_name/build install --record /home/yuichi-katagiri/Subjects/Robotics/ex01/build/service_full_name/install.log --single-version-externally-managed install_data

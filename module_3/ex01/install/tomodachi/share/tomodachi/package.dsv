@@ -1,0 +1,6 @@
+source;share/tomodachi/hook/pythonpath.ps1
+source;share/tomodachi/hook/pythonpath.dsv
+source;share/tomodachi/hook/pythonpath.sh
+source;share/tomodachi/hook/ament_prefix_path.ps1
+source;share/tomodachi/hook/ament_prefix_path.dsv
+source;share/tomodachi/hook/ament_prefix_path.sh

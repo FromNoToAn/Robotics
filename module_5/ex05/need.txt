@@ -1,0 +1,3 @@
+ros2 launch robot_bringup circle_movement.py
+
+ros2 run circle_movement circle_movement

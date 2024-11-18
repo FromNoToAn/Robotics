@@ -1,0 +1,26 @@
+[0.597s] Invoking command in '/home/yuichi-katagiri/Subjects/Robotics/module_5/ex05/src/my_movement': PYTHONPATH=/home/yuichi-katagiri/Subjects/Robotics/module_5/ex05/build/my_movement/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuichi-katagiri/Subjects/Robotics/module_5/ex05/install/my_movement/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_movement build --build-base /home/yuichi-katagiri/Subjects/Robotics/module_5/ex05/build/my_movement/build install --record /home/yuichi-katagiri/Subjects/Robotics/module_5/ex05/build/my_movement/install.log --single-version-externally-managed install_data
+[0.816s] running egg_info
+[0.816s] writing ../../build/my_movement/my_movement.egg-info/PKG-INFO
+[0.817s] writing dependency_links to ../../build/my_movement/my_movement.egg-info/dependency_links.txt
+[0.817s] writing entry points to ../../build/my_movement/my_movement.egg-info/entry_points.txt
+[0.817s] writing requirements to ../../build/my_movement/my_movement.egg-info/requires.txt
+[0.817s] writing top-level names to ../../build/my_movement/my_movement.egg-info/top_level.txt
+[0.819s] reading manifest file '../../build/my_movement/my_movement.egg-info/SOURCES.txt'
+[0.820s] writing manifest file '../../build/my_movement/my_movement.egg-info/SOURCES.txt'
+[0.820s] running build
+[0.820s] running build_py
+[0.820s] copying my_movement/star_movement.py -> /home/yuichi-katagiri/Subjects/Robotics/module_5/ex05/build/my_movement/build/lib/my_movement
+[0.820s] running install
+[0.820s] running install_lib
+[0.821s] copying /home/yuichi-katagiri/Subjects/Robotics/module_5/ex05/build/my_movement/build/lib/my_movement/star_movement.py -> /home/yuichi-katagiri/Subjects/Robotics/module_5/ex05/install/my_movement/lib/python3.10/site-packages/my_movement
+[0.822s] byte-compiling /home/yuichi-katagiri/Subjects/Robotics/module_5/ex05/install/my_movement/lib/python3.10/site-packages/my_movement/star_movement.py to star_movement.cpython-310.pyc
+[0.823s] running install_data
+[0.824s] Sorry: IndentationError: expected an indented block after 'if' statement on line 202 (star_movement.py, line 203)
+[0.824s] running install_egg_info
+[0.825s] removing '/home/yuichi-katagiri/Subjects/Robotics/module_5/ex05/install/my_movement/lib/python3.10/site-packages/my_movement-0.0.0-py3.10.egg-info' (and everything under it)
+[0.825s] Copying ../../build/my_movement/my_movement.egg-info to /home/yuichi-katagiri/Subjects/Robotics/module_5/ex05/install/my_movement/lib/python3.10/site-packages/my_movement-0.0.0-py3.10.egg-info
+[0.826s] running install_scripts
+[0.848s] Installing circle_movement script to /home/yuichi-katagiri/Subjects/Robotics/module_5/ex05/install/my_movement/lib/my_movement
+[0.848s] Installing star_movement script to /home/yuichi-katagiri/Subjects/Robotics/module_5/ex05/install/my_movement/lib/my_movement
+[0.849s] writing list of installed files to '/home/yuichi-katagiri/Subjects/Robotics/module_5/ex05/build/my_movement/install.log'
+[0.871s] Invoked command in '/home/yuichi-katagiri/Subjects/Robotics/module_5/ex05/src/my_movement' returned '0': PYTHONPATH=/home/yuichi-katagiri/Subjects/Robotics/module_5/ex05/build/my_movement/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuichi-katagiri/Subjects/Robotics/module_5/ex05/install/my_movement/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_movement build --build-base /home/yuichi-katagiri/Subjects/Robotics/module_5/ex05/build/my_movement/build install --record /home/yuichi-katagiri/Subjects/Robotics/module_5/ex05/build/my_movement/install.log --single-version-externally-managed install_data

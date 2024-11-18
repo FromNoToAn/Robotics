@@ -1,0 +1,8 @@
+[0.000000] (-) TimerEvent: {}
+[0.000778] (service_full_name) JobQueued: {'identifier': 'service_full_name', 'dependencies': OrderedDict()}
+[0.000837] (service_full_name) JobStarted: {'identifier': 'service_full_name'}
+[0.100035] (-) TimerEvent: {}
+[0.200279] (-) TimerEvent: {}
+[0.247257] (service_full_name) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 54, in build\n    data_files = get_data_files_mapping(\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/__init__.py", line 42, in get_data_files_mapping\n    assert not os.path.isabs(source), \\\nAssertionError: \'data_files\' must be relative, \'/SummFullName.srv\' is absolute\n'}
+[0.248220] (service_full_name) JobEnded: {'identifier': 'service_full_name', 'rc': 1}
+[0.258115] (-) EventReactorShutdown: {}

@@ -1,7 +1,0 @@
-# why rotation on 360 angles  = 6.225?
-
-# Из папки ex07
-ros2 topic pub /turtle1/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 5.0, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 3.1125}}" --once
-ros2 topic pub /turtle1/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 5.0, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 3.1125}}" --once
-ros2 topic pub /turtle1/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 5.0, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: -3.1125}}" --once
-ros2 topic pub /turtle1/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 5.0, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: -3.1125}}" --once

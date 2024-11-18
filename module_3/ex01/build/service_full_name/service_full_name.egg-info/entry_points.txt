@@ -1,0 +1,4 @@
+[console_scripts]
+client_name = service_full_name.client_file:main
+service_name = service_full_name.service_file:main
+

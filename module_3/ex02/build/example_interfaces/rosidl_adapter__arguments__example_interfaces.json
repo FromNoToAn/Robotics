@@ -1,0 +1,6 @@
+{
+  "package_name": "example_interfaces",
+  "non_idl_tuples": [
+    "/home/yuichi-katagiri/Subjects/Robotics/ex02/src/example_interfaces:action/MessageTurtleCommands.action"
+  ]
+}

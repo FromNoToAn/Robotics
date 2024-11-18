@@ -1,0 +1,26 @@
+[2.393s] Invoking command in '/home/yuichi-katagiri/Subjects/Robotics/ex03/src/kokorogi': PYTHONPATH=/home/yuichi-katagiri/Subjects/Robotics/ex03/build/kokorogi/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuichi-katagiri/Subjects/Robotics/ex03/install/kokorogi/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/kokorogi build --build-base /home/yuichi-katagiri/Subjects/Robotics/ex03/build/kokorogi/build install --record /home/yuichi-katagiri/Subjects/Robotics/ex03/build/kokorogi/install.log --single-version-externally-managed install_data
+[3.498s] running egg_info
+[3.501s] writing ../../build/kokorogi/kokorogi.egg-info/PKG-INFO
+[3.501s] writing dependency_links to ../../build/kokorogi/kokorogi.egg-info/dependency_links.txt
+[3.503s] writing entry points to ../../build/kokorogi/kokorogi.egg-info/entry_points.txt
+[3.504s] writing requirements to ../../build/kokorogi/kokorogi.egg-info/requires.txt
+[3.504s] writing top-level names to ../../build/kokorogi/kokorogi.egg-info/top_level.txt
+[3.511s] reading manifest file '../../build/kokorogi/kokorogi.egg-info/SOURCES.txt'
+[3.512s] adding license file 'LICENSE'
+[3.515s] writing manifest file '../../build/kokorogi/kokorogi.egg-info/SOURCES.txt'
+[3.515s] running build
+[3.516s] running build_py
+[3.517s] running install
+[3.518s] running install_lib
+[3.523s] running install_data
+[3.524s] copying launch/kokorogi_fixed.launch.py -> /home/yuichi-katagiri/Subjects/Robotics/ex03/install/kokorogi/share/kokorogi/launch
+[3.525s] copying launch/lab4_3_fixed.launch.py -> /home/yuichi-katagiri/Subjects/Robotics/ex03/install/kokorogi/share/kokorogi/launch
+[3.525s] running install_egg_info
+[3.532s] removing '/home/yuichi-katagiri/Subjects/Robotics/ex03/install/kokorogi/lib/python3.10/site-packages/kokorogi-0.0.0-py3.10.egg-info' (and everything under it)
+[3.533s] Copying ../../build/kokorogi/kokorogi.egg-info to /home/yuichi-katagiri/Subjects/Robotics/ex03/install/kokorogi/lib/python3.10/site-packages/kokorogi-0.0.0-py3.10.egg-info
+[3.537s] running install_scripts
+[3.628s] Installing fixed_frame_tf2_broadcaster script to /home/yuichi-katagiri/Subjects/Robotics/ex03/install/kokorogi/lib/kokorogi
+[3.629s] Installing turtle_tf2_broadcaster script to /home/yuichi-katagiri/Subjects/Robotics/ex03/install/kokorogi/lib/kokorogi
+[3.630s] Installing turtle_tf2_listener script to /home/yuichi-katagiri/Subjects/Robotics/ex03/install/kokorogi/lib/kokorogi
+[3.631s] writing list of installed files to '/home/yuichi-katagiri/Subjects/Robotics/ex03/build/kokorogi/install.log'
+[3.729s] Invoked command in '/home/yuichi-katagiri/Subjects/Robotics/ex03/src/kokorogi' returned '0': PYTHONPATH=/home/yuichi-katagiri/Subjects/Robotics/ex03/build/kokorogi/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuichi-katagiri/Subjects/Robotics/ex03/install/kokorogi/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/kokorogi build --build-base /home/yuichi-katagiri/Subjects/Robotics/ex03/build/kokorogi/build install --record /home/yuichi-katagiri/Subjects/Robotics/ex03/build/kokorogi/install.log --single-version-externally-managed install_data

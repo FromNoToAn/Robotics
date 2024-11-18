@@ -1,0 +1,40 @@
+running egg_info
+creating ../../build/tomodachi/tomodachi.egg-info
+writing ../../build/tomodachi/tomodachi.egg-info/PKG-INFO
+writing dependency_links to ../../build/tomodachi/tomodachi.egg-info/dependency_links.txt
+writing entry points to ../../build/tomodachi/tomodachi.egg-info/entry_points.txt
+writing requirements to ../../build/tomodachi/tomodachi.egg-info/requires.txt
+writing top-level names to ../../build/tomodachi/tomodachi.egg-info/top_level.txt
+writing manifest file '../../build/tomodachi/tomodachi.egg-info/SOURCES.txt'
+reading manifest file '../../build/tomodachi/tomodachi.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/tomodachi/tomodachi.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/yuichi-katagiri/Subjects/Robotics/ex01/build/tomodachi/build
+creating /home/yuichi-katagiri/Subjects/Robotics/ex01/build/tomodachi/build/lib
+creating /home/yuichi-katagiri/Subjects/Robotics/ex01/build/tomodachi/build/lib/tomodachi
+copying tomodachi/tomodachi_node.py -> /home/yuichi-katagiri/Subjects/Robotics/ex01/build/tomodachi/build/lib/tomodachi
+copying tomodachi/__init__.py -> /home/yuichi-katagiri/Subjects/Robotics/ex01/build/tomodachi/build/lib/tomodachi
+running install
+running install_lib
+creating /home/yuichi-katagiri/Subjects/Robotics/ex01/install/tomodachi/lib/python3.10/site-packages/tomodachi
+copying /home/yuichi-katagiri/Subjects/Robotics/ex01/build/tomodachi/build/lib/tomodachi/tomodachi_node.py -> /home/yuichi-katagiri/Subjects/Robotics/ex01/install/tomodachi/lib/python3.10/site-packages/tomodachi
+copying /home/yuichi-katagiri/Subjects/Robotics/ex01/build/tomodachi/build/lib/tomodachi/__init__.py -> /home/yuichi-katagiri/Subjects/Robotics/ex01/install/tomodachi/lib/python3.10/site-packages/tomodachi
+byte-compiling /home/yuichi-katagiri/Subjects/Robotics/ex01/install/tomodachi/lib/python3.10/site-packages/tomodachi/tomodachi_node.py to tomodachi_node.cpython-310.pyc
+byte-compiling /home/yuichi-katagiri/Subjects/Robotics/ex01/install/tomodachi/lib/python3.10/site-packages/tomodachi/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/yuichi-katagiri/Subjects/Robotics/ex01/install/tomodachi/share/ament_index
+creating /home/yuichi-katagiri/Subjects/Robotics/ex01/install/tomodachi/share/ament_index/resource_index
+creating /home/yuichi-katagiri/Subjects/Robotics/ex01/install/tomodachi/share/ament_index/resource_index/packages
+copying resource/tomodachi -> /home/yuichi-katagiri/Subjects/Robotics/ex01/install/tomodachi/share/ament_index/resource_index/packages
+copying package.xml -> /home/yuichi-katagiri/Subjects/Robotics/ex01/install/tomodachi/share/tomodachi
+creating /home/yuichi-katagiri/Subjects/Robotics/ex01/install/tomodachi/share/tomodachi/msg
+copying msg/FullNameMessage.msg -> /home/yuichi-katagiri/Subjects/Robotics/ex01/install/tomodachi/share/tomodachi/msg
+creating /home/yuichi-katagiri/Subjects/Robotics/ex01/install/tomodachi/share/tomodachi/srv
+copying srv/FullNameSumService.srv -> /home/yuichi-katagiri/Subjects/Robotics/ex01/install/tomodachi/share/tomodachi/srv
+running install_egg_info
+Copying ../../build/tomodachi/tomodachi.egg-info to /home/yuichi-katagiri/Subjects/Robotics/ex01/install/tomodachi/lib/python3.10/site-packages/tomodachi-0.0.0-py3.10.egg-info
+running install_scripts
+Installing my_node script to /home/yuichi-katagiri/Subjects/Robotics/ex01/install/tomodachi/lib/tomodachi
+writing list of installed files to '/home/yuichi-katagiri/Subjects/Robotics/ex01/build/tomodachi/install.log'

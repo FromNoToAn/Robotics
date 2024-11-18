@@ -1,0 +1,6 @@
+source;share/sawaragi/hook/pythonpath.ps1
+source;share/sawaragi/hook/pythonpath.dsv
+source;share/sawaragi/hook/pythonpath.sh
+source;share/sawaragi/hook/ament_prefix_path.ps1
+source;share/sawaragi/hook/ament_prefix_path.dsv
+source;share/sawaragi/hook/ament_prefix_path.sh
